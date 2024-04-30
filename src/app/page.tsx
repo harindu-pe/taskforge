@@ -1,13 +1,10 @@
-import { CardBody, CardContainer, CardItem } from "@/components/global/3d-card";
 import { HeroParallax } from "@/components/global/connect-parallax";
 import { ContainerScroll } from "@/components/global/container-scroll-animation";
 import { InfiniteMovingCards } from "@/components/global/infinite-moving-cards";
-import { LampComponent } from "@/components/global/lamp";
 import Navbar from "@/components/global/navbar";
 import Pricing from "@/components/global/pricing";
 import { Button } from "@/components/ui/button";
 import { clients, products } from "@/lib/constants";
-import { CheckIcon } from "lucide-react";
 
 export default function Home() {
   return (
@@ -45,7 +42,7 @@ export default function Home() {
         <HeroParallax products={products}></HeroParallax>
       </section>
 
-      <section className="mt-[-500px]">
+      <section className="mt-[-500px] mb-20">
         <Pricing />
       </section>
     </main>
