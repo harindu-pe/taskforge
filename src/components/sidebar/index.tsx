@@ -15,7 +15,7 @@ import { ModeToggle } from "@/components/global/mode-toggle";
 
 type Props = {};
 
-const MenuOptions = (props: Props) => {
+const SideBar = (props: Props) => {
   const pathName = usePathname();
   return (
     <nav className=" dark:bg-black h-screen overflow-scroll justify-between flex items-center flex-col gap-10 py-6 px-2">
@@ -77,4 +77,4 @@ const MenuOptions = (props: Props) => {
   );
 };
 
-export default MenuOptions;
+export default SideBar;
